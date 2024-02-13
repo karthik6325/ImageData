@@ -1,0 +1,40 @@
+.homepage {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px grey;
+    background: rgb(231, 230, 255);
+    background: linear-gradient(10deg, rgba(231, 230, 255, 1) 0%, rgba(144, 144, 255, 1) 51%, rgba(106, 101, 255, 1) 100%);
+    overflow-y: auto;
+}
+
+.format {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 8px;
+}
+
+.postImageButton {
+    background-color: #1d2129;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.postImageButton:hover {
+    background-color: #1d2129;
+}
+
+.imageStyle {
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
